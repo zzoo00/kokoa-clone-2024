@@ -1,9 +1,17 @@
 .nav {
-  background-color: darkgray;
-  padding: 20px 40px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(243, 243, 243);
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(162, 162, 162, 0.3);
 }
 
 .nav___list {
-  display: flex; /*위아래 말고 옆으로 배열*/
-  justify-content: space-between; /*아이콘들 사이 공백*/
+  display: flex;
+  justify-content: space-between;
+}
+.nav___link {
+  color: #2e363e;
 }
