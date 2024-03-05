@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar___column">
+        <span>No service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar___column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar___column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full fa-2x"></i>
+        <!--fa-2x는 아이콘 크기 키워줌 -->
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header___title">Welcome to Kokoa Clone</h1>
+      <p class="welcome-header___text">
+        If you have a Kokoa account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Kokoa account or password </a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/456ec04779.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
