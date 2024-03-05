@@ -1,0 +1,9 @@
+.nav {
+  background-color: darkgray;
+  padding: 20px 40px;
+}
+
+.nav___list {
+  display: flex; /*위아래 말고 옆으로 배열*/
+  justify-content: space-between; /*아이콘들 사이 공백*/
+}
