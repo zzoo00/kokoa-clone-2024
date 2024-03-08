@@ -4,11 +4,15 @@
 /*components*/
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 
 /*screens*/
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen;
-  height: 1000vh; /*네비게이션바 아래에 잘 붙어있나 확인하려고*/
+  height: 1000vh;
+  color: #2e363e; /*전체에 적용*/
 }

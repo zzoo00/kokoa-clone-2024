@@ -1,0 +1,14 @@
+.user-component {
+  display: flex;
+}
+.user-component___column:first-child {
+  /*사진과 텍스트를 나란히 배열*/
+  /*특별히 뜻없는 column 두개니까 둘이 같은 class명 준건가?*/
+  display: flex;
+  align-items: center; /*text-align아님*/
+}
+.user-component___avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+}
